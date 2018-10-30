@@ -1,0 +1,22 @@
+{
+  "name": "Scroll-Top-Button",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/donggyushin/Scroll-Top-Button.git",
+  "author": "rontend",
+  "license": "MIT",
+  "eslint.packageManager": "yarn",
+  "dependencies": {
+    "postcss-preset-env": "^6.3.0"
+  },
+  "scripts": {
+    "dev": "parcel src/index.htm"
+  },
+  "postcss":{
+    "plugins":{
+      "postcss-preset-env": {
+        "stage":0
+      }
+    }
+  }
+}
